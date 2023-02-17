@@ -6,7 +6,7 @@ import Meanings from "./Meanings";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tarot-app">
       <div className="App">
         <nav className="navbar navbar-dark bg-dark">
           <ul>
@@ -33,7 +33,10 @@ function App() {
           <Route path="/onecard/*" element={<OneCard />} />
           <Route path="threecards/*" element={<ThreeCards />} />
           <Route path="meanings/*" element={<Meanings />} />
-          <Route path="*" element={<h1>Do not do that!</h1>} />
+          <Route
+            path="*"
+            element={<h1>Nosta kortteja ja lue tarot-korttien merkityksiä.</h1>}
+          />
         </Routes>
       </div>
     </BrowserRouter>
