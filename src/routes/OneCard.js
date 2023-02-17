@@ -14,7 +14,6 @@ function OneCard() {
     setCard(CardDeck[randomIndex].src);
     setText(CardDeck[randomIndex].text);
     setName(CardDeck[randomIndex].name);
-    console.log(name);
   };
 
   const refreshPage = () => {
@@ -23,7 +22,6 @@ function OneCard() {
 
   return (
     <div className="App">
-      <h1>Nosta tarot-kortti</h1>
       <div className="card-table">
         <button onClick={refreshPage}>Sekoita pakka</button>
         <br />
