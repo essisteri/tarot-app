@@ -256,7 +256,7 @@ export const CardDeck = [
   },
   {
     name: "Sauvojen kakkonen",
-    src: "./img/w_2jpg",
+    src: "./img/w_2.jpg",
     text: "tulevaisuuden suunnittelu, unelmointi, päätökset, reflektointi",
   },
   {
