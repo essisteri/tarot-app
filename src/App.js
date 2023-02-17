@@ -1,9 +1,9 @@
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
-import OneCard from "./OneCard";
-import ThreeCards from "./ThreeCards";
-import Meanings from "./Meanings";
-import Navbar from "../Navbar";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import OneCard from "./routes/OneCard";
+import ThreeCards from "./routes/ThreeCards";
+import Meanings from "./routes/Meanings";
+import Navbar from "./Navbar";
 
 function App() {
   return (

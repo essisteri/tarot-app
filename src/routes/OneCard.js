@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Card from "./components/Card";
-import { CardDeck } from "./components/CardDeck";
+import Card from "../components/Card";
+import { CardDeck } from "../components/CardDeck";
 
 function OneCard() {
   const [card, setCard] = useState("");
