@@ -20,7 +20,7 @@ export default function Card({
 
         <img
           className="back"
-          src="./tarot-app/public/img/back.png"
+          src="./img/back.png"
           onClick={handleClick}
           alt="cover"
         />
