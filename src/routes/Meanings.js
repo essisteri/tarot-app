@@ -1,5 +1,5 @@
-import "./App.css";
-import { CardDeck } from "./components/CardDeck";
+//import "../App.css";
+import { CardDeck } from "../components/CardDeck";
 
 function Meanings() {
   const onClick = () => {};
