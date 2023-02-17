@@ -1,4 +1,4 @@
-import "./App.css";
+import "./routes/App.css";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import OneCard from "./routes/OneCard";
 import ThreeCards from "./routes/ThreeCards";
@@ -10,10 +10,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route
-          path="/"
-          element={<div>Nosta kortteja ja lue tarot-korttien merkityksiä.</div>}
-        />
+        <Route path="/" element={<OneCard />} />
         <Route path="/onecard" element={<OneCard />} />
         <Route path="/threecards" element={<ThreeCards />} />
         <Route path="/meanings" element={<Meanings />} />
