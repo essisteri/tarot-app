@@ -20,7 +20,7 @@ export default function Card({
 
         <img
           className="back"
-          src="/img/back.png"
+          src="/public/img/back.png"
           onClick={handleClick}
           alt="cover"
         />
