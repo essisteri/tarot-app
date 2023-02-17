@@ -1,7 +1,7 @@
 export const CardDeck = [
   {
     name: "Narri",
-    src: "/img/fool.jpg",
+    src: "https://essisteri.github.io/tarot-app/img/narri.jpg",
     text: "seikkailu, sisäinen lapsi, uudet alut, viattomuus",
   },
   {
