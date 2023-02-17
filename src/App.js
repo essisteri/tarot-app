@@ -30,7 +30,7 @@ function App() {
               <div>Nosta kortteja ja lue tarot-korttien merkityksiä.</div>
             }
           />
-          <Route path="/onecard/*" element={<OneCard />} />
+          <Route path="tarot-app/onecard/*" element={<OneCard />} />
           <Route path="threecards/*" element={<ThreeCards />} />
           <Route path="meanings/*" element={<Meanings />} />
           <Route
