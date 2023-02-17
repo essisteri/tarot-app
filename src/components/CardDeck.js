@@ -1,17 +1,17 @@
 export const CardDeck = [
   {
     name: "Narri",
-    src: "./tarot-app/img/narri.jpg",
+    src: "./img/narri.jpg",
     text: "seikkailu, sisäinen lapsi, uudet alut, viattomuus",
   },
   {
     name: "Taikuri",
-    src: "/img/magician.jpg",
+    src: "./img/magician.jpg",
     text: "taidot, kyvyt, aloittaminen, manifestointi",
   },
   {
     name: "Ylipapitar",
-    src: "/img/high_priestess.jpg",
+    src: "./img/high_priestess.jpg",
     text: "intuitio, alitajunta, feminiinisyys, noituus",
   },
   {
