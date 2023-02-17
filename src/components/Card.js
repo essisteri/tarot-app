@@ -20,7 +20,7 @@ export default function Card({
 
         <img
           className="back"
-          src="./public/img/back.png"
+          src="https://github.com/essisteri/tarot-app/blob/main/public/img/back.png"
           onClick={handleClick}
           alt="cover"
         />
