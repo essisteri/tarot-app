@@ -1,4 +1,4 @@
-import "../src/App.css";
+import "../App.css";
 import { CardDeck } from "../components/CardDeck";
 
 function Meanings() {
