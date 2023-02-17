@@ -3,43 +3,26 @@ import "./App.css";
 import OneCard from "./OneCard";
 import ThreeCards from "./ThreeCards";
 import Meanings from "./Meanings";
+import Navbar from "../Navbar";
 
 function App() {
   return (
-    <BrowserRouter basename="/tarot-app">
-      <div className="App">
-        <nav className="navbar navbar-dark bg-dark">
-          <ul>
-            <li className="nav-item">
-              <Link to="/">Etusivu</Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/onecard">Nosta kortti</Link>
-            </li>
-
-            <li className="nav-item">
-              <Link to="/meanings">Korttien merkitykset</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <div>Nosta kortteja ja lue tarot-korttien merkityksiä.</div>
-            }
-          />
-          <Route path="tarot-app/onecard/*" element={<OneCard />} />
-          <Route path="threecards/*" element={<ThreeCards />} />
-          <Route path="meanings/*" element={<Meanings />} />
-          <Route
-            path="*"
-            element={<h1>Nosta kortteja ja lue tarot-korttien merkityksiä.</h1>}
-          />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={<div>Nosta kortteja ja lue tarot-korttien merkityksiä.</div>}
+        />
+        <Route path="/onecard" element={<OneCard />} />
+        <Route path="/threecards" element={<ThreeCards />} />
+        <Route path="/meanings" element={<Meanings />} />
+        <Route
+          path="*"
+          element={<h1>Nosta kortteja ja lue tarot-korttien merkityksiä.</h1>}
+        />
+      </Routes>
+    </>
   );
 }
 
